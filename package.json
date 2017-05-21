@@ -1,0 +1,25 @@
+{
+  "name": "football-data",
+  "version": "1.0.0",
+  "description": "Gets season fixtures from football-data.org and removes unnecessary fields",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/antoniokov/football-data.git"
+  },
+  "keywords": [
+    "api",
+    "football",
+    "sport",
+    "json"
+  ],
+  "author": "Anton Iokov",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "winston": "^2.3.1"
+  }
+}
